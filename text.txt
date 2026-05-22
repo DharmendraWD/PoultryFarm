@@ -1,0 +1,2 @@
+<section className={`${styles.hero} ${styles.section} bg-red-500 p-4 rounded-lg`}> -- use class with conditional class 
+<div className={`${styles.hero__bottom} ${isActive ? "bg-red-500" : "bg-blue-500"}`}> -- use conditional with dynamic and normal class
