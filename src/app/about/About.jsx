@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from '../../css/aboutus.module.css';
-import Free_Range_Chickens from "../../../public/free-range-chickens.jpg"
+import Free_Range_Chickens from "../../../public/owned/hens4.png"
 import styles2 from '../../css/hero.module.css';
-import A_Place_For_Chicken_BG from '../../../public/two-newborn-chicken-with-cracked-eggshell.jpg';
+import A_Place_For_Chicken_BG from '../../../public/owned/adultHen.png';
 
 
 

@@ -157,7 +157,8 @@
 
 .hero__bottom-text p {
   font-family: var(--font-body);
-  font-size: clamp(13px, 1.3vw, 15px);
+  /* font-size: clamp(13px, 1.3vw, 15px); */
+  font-size: 19px;
   color: var(--color-text-body);
   line-height: 1.7;
   margin-bottom: 14px;

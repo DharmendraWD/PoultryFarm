@@ -37,7 +37,7 @@ export default function Hero() {
 
       {/* Center content */}
       <div className={styles.hero__center} data-aos="fade-up">
-        <p className={styles.hero__eyebrow}>Cheeky Presents</p>
+        <p className={styles.hero__eyebrow}>Western Poultry Breeding Farm Pvt. Ltd. Presents</p>
 
         <h1 className={`${styles.hero__title} fadeUp`}>Welcome To Our Farm</h1>
 

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import styles from "../../css/contact.module.css";
 import {
   FaFacebook,
@@ -42,7 +43,7 @@ export default function ContactUs() {
 
           {/* WHATSAPP */}
           <a
-            href="https://wa.me/9779800000000"
+            href="https://wa.me/+9779840914606"
             target="_blank"
             className={styles.socialCard}
           >
@@ -55,22 +56,27 @@ export default function ContactUs() {
           </a>
 
           {/* PHONE */}
-          <div className={styles.socialCard}>
+            <Link href="tel:+9779840914606" className={styles.socialCard}>
+          <div >
             <FaPhoneAlt className={styles.icon} />
-            <div>
-              <h3>Call Us</h3>
-              <p>+977-9800000000</p>
-            </div>
+
+                      <div>
+ Call Now
+</div>
+    
           </div>
+            </Link>
 
           {/* EMAIL */}
-          <div className={styles.socialCard}>
+          <Link href="mailto:western.poultry015@gmail.com" className={styles.socialCard}>
             <FaEnvelope className={styles.icon} />
             <div>
               <h3>Email</h3>
-              <p>farm@email.com</p>
+              <p>western.poultry015@gmail.com</p>
             </div>
-          </div>
+          </Link>
+
+
         </div>
 
         {/* FORM SECTION */}

@@ -32,11 +32,11 @@ const steps = [
     title: "Fresh Packaging",
     desc: "Carefully packed to maintain freshness and quality.",
   },
-  {
-    icon: <FaTruck />,
-    title: "Same-Day Delivery",
-    desc: "Fast delivery across Kathmandu and nearby areas.",
-  },
+  // {
+  //   icon: <FaTruck />,
+  //   title: "Same-Day Delivery",
+  //   desc: "Fast delivery across Kathmandu and nearby areas.",
+  // },
 ];
 
 

@@ -110,7 +110,7 @@
 
 .processGrid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
 
@@ -118,7 +118,6 @@
   background: #fff;
   padding: 25px;
   border-radius: 18px;
-  text-align: center;
   transition: 0.3s;
   position: relative;
 }

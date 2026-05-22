@@ -25,12 +25,11 @@ const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(mess
             <div className={styles.logoCircle}>
               <span>🐔</span>
             </div>
-            <h2 className={styles.logoText}>CHEEKY</h2>
+            <h2 className={styles.logoText}>Western Poultry Breeding Farm Pvt. Ltd.</h2>
           </div>
 
           <p className={styles.desc}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-            luctus nec ullamcorper mattis.
+            In Western Poultry Breeding Farm Pvt. Ltd. we are committed to providing high-quality Products to meet the needs of our customers.
           </p>
         </div>
 

@@ -70,7 +70,7 @@ useEffect(() => {
               />
             </svg>
 
-            <span className={styles.navbar__logo_text}>CHEEKY</span>
+            <span className={styles.navbar__logo_text}>Western Poultry Breeding Farm Pvt. Ltd.</span>
           </Link>
 
           {/* Desktop Nav */}

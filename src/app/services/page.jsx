@@ -110,7 +110,7 @@ export default function FarmExperience() {
 
       {/* Center content */}
       <div className={styles2.hero__center}>
-        <p className={styles2.hero__eyebrow}>Cheeky Presents</p>
+        <p className={styles2.hero__eyebrow}>We Believe In Customer Satisfaction.</p>
 
         <h1 className={`${styles2.hero__title} fadeUp`}>Our Services</h1>
 
@@ -156,9 +156,8 @@ export default function FarmExperience() {
           </h2>
 
           <p className={styles.description}>
-            Phasellus elementum leo risus, a elementum est mattis in.
-            Cras id iaculis ligula. Nullam a fringilla augue.
-            Proin imperdiet sapien nulla.
+       At Western Poultry Breeding Farm Pvt. Ltd., we are committed to providing healthy, high-quality hens with trusted and reliable service. We focus on proper care, hygiene, and customer satisfaction to ensure every customer receives the best poultry products. Our goal is to support farmers and businesses with quality breeds, affordable prices, and dependable service they can trust.
+
           </p>
 
           {/* STATS */}

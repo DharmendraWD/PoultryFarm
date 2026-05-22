@@ -65,7 +65,7 @@ export default function WhyWait() {
       <p className={styles.header__eyebrow}>Come To See Our Farm</p>
       <h2 className={styles.header__title}>Why Wait?</h2>
       <p className={styles.header__desc}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+       Come and see our farm in person and get to know our products.
       </p>
     </div>
 

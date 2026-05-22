@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 
 const TypeWriterPara = () => {
   const text =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.";
+    "स्वास्थ्य र गुणस्तरको पहिलो रोजाइ Western Poultry Breeding Farm Pvt. Ltd.";
 
   const ref = useRef(null);
   const [displayedText, setDisplayedText] = useState("");
