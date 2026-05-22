@@ -146,8 +146,8 @@ import { useState } from "react";
 import { CiLocationArrow1 } from "react-icons/ci";
 
 const FARM_LOCATION = {
-  lat: 27.7172,
-  lng: 85.324,
+  lat:  27.701398696526553,
+  lng: 85.30601006152826,
 };
 
 function getDistanceKm(lat1, lon1, lat2, lon2) {
