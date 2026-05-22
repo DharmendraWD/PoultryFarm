@@ -8,12 +8,10 @@ import { CiMail } from "react-icons/ci";
 import { IoMdCall } from "react-icons/io";
 
 export default function Footer() {
-  const phoneNumber = "+9779866114605";
+  const phoneNumber = "+9779840914606";
 
 const message = `
-Hi, I want to order:
-Chicken: 2kg
-Eggs: 1 tray
+Hello
 `;
 const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
@@ -71,9 +69,26 @@ const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(mess
           <h3 className={styles.title}>Get In Touch</h3>
 
           <div className={styles.contact}>
-            <p> <FaLocationArrow /> Basantpur, Kathmandu 24</p>
-            <p><FaPhoneSquare />207-8767-452</p>
-            <p><CiMail /> support@site.com</p>
+<Link
+  href="https://www.google.com/maps/search/?api=1&query=Basantpur+Kathmandu+24"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex gap-1 items-center"
+>
+  <FaLocationArrow />
+  <span>Basantpur, Kathmandu 24</span>
+</Link>
+            <Link href="tel:+9779812345678" className="flex gap-1 items-center">
+            <FaPhoneSquare />
+<span> Call Now</span>
+</Link>
+<Link
+  href="mailto:western.poultry015@gmail.com"
+  className="flex gap-1 items-center"
+>
+  <CiMail />
+  <span>western.poultry015@gmail.com</span>
+</Link>
           </div>
         </div>
       </div>

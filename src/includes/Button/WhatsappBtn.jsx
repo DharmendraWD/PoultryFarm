@@ -1,9 +1,7 @@
-const phoneNumber = "+9779866114605";
+const phoneNumber = "+9779840914606";
 
 const message = `
-Hi, I want to order:
-Chicken: 2kg
-Eggs: 1 tray
+Hello
 `;
 
 const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
