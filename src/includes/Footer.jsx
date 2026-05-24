@@ -94,7 +94,7 @@ const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(mess
 
       {/* BOTTOM */}
       <div className={styles.bottom}>
-        Copyright © 2026 Cheeky | Powered by Aayu Softtech
+        Copyright © 2026 Western Poultry Breeding Farm Pvt. Ltd. | Powered by Aayu Softtech
       </div>
     </footer>
   );
