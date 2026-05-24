@@ -69,13 +69,13 @@ const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(mess
 
           <div className={styles.contact}>
 <Link
-  href="https://www.google.com/maps/search/?api=1&query=Basantpur+Kathmandu+24"
+  href="https://maps.app.goo.gl/9hE7KMbxh8wK4Ntu6?g_st=iwb"
   target="_blank"
   rel="noopener noreferrer"
   className="flex gap-1 items-center"
 >
   <FaLocationArrow />
-  <span>Basantpur, Kathmandu 24</span>
+  <span>Bardagoriya-06, kailali</span>
 </Link>
             <Link href="tel:+9779812345678" className="flex gap-1 items-center">
             <FaPhoneSquare />

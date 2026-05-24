@@ -287,10 +287,11 @@ import { useState } from "react";
 import { CiLocationArrow1 } from "react-icons/ci";
 
 const FARM_LOCATION = {
-  lat:  27.701398696526553,
-  lng: 85.30601006152826,
+  lat:  28.63025104472013,
+  lng: 81.02070737301658,
 
 };
+
 
 // ── Get best GPS position ──────────────────────────────────
 function getBestPosition({ targetAccuracyM = 100, maxWaitMs = 8000 } = {}) {

@@ -29,7 +29,7 @@ export default function ContactUs() {
 
           {/* FACEBOOK */}
           <a
-            href="https://www.facebook.com/your-profile"
+            href="https://www.facebook.com/share/18vJX7UP8x/?mibextid=wwXIfr"
             target="_blank"
             className={styles.socialCard}
           >

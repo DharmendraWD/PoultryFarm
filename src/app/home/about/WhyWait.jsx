@@ -2,30 +2,31 @@ import Link from 'next/link';
 import styles from '../../../css/whyWait.module.css';
 import chickenDrawing from "../../../../public/chickenDrawing.png";
 import Image from 'next/image';
+import { IoShieldCheckmark } from 'react-icons/io5';
 
 
 
 const cards = [
   {
-    title: 'Cheeky Farm Market',
-    time: '9.00 am - 04.00 pm',
-    days: 'Monday - Wednesday',
-    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
-    href: '/farm-market',
+    title: 'Our Farm Open and Close Time',
+    time: '7.00 am - 7.00 pm',
+    days: 'Sunday - Saturday',
+    body: 'We Have 24/7 Open. You can visit our farm at any time and get to know our products.',
+    href: '',
   },
   {
-    title: 'Poult Open Dinner',
-    time: '6.00 pm - 08.00 pm',
-    days: 'Thursday - Friday',
-    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
-    href: '/open-dinner',
+    title: 'Fresh Organic Produce',
+    time: '7.00 pm - 7.00 pm',
+    days: 'Sunday - Saturday',
+    body: 'We provide fresh, naturally grown vegetables, fruits, and dairy products directly from our farm to ensure quality and healthy living.',
+    href: '',
   },
   {
-    title: 'Weekend Farm Tour',
-    time: '8.00 am - 03.00 pm',
-    days: 'Saturday - Sunday',
-    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
-    href: '/farm-tour',
+    title: 'Farm Visit & Activities',
+    time: '7.00 am - 7.00 pm',
+    days: 'Sunday - Saturday',
+    body: 'Enjoy guided farm tours, animal feeding, and outdoor activities designed for families, students, and nature lovers.',
+    href: '',
   },
 ];
 
@@ -90,7 +91,8 @@ export default function WhyWait() {
           <p className={styles.card__body} data-aos="fade-up">{card.body}</p>
 
           <Link href={card.href} className={styles.card__link}>
-            → Learn More
+           <IoShieldCheckmark className='text-[24px]' />
+
           </Link>
         </div>
       ))}
