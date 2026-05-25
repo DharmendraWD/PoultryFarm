@@ -6,6 +6,8 @@ import { usePathname } from 'next/navigation';
 import styles from '../../../css/navbar.module.css';
 import WhatsappBtn from '../../../includes/Button/WhatsappBtn';
 import { useEffect } from 'react';
+import logo from "../../../../public/logo-cheeky2.png";
+import Image from 'next/image';
 
 const navLinks = [
   { label: 'Home', href: '/' },
@@ -41,34 +43,10 @@ useEffect(() => {
       >
         <div className={styles.navbar__inner}>
           {/* Logo */}
-          <Link href="/" className={styles.navbar__logo}>
-            <svg
-              className={styles.logo_svg_wrap}
-              width="52"
-              height="52"
-              viewBox="0 0 52 52"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle cx="26" cy="26" r="26" fill="#5bbf1a" />
-              <ellipse cx="26" cy="30" rx="13" ry="14" fill="#ffffff" />
-              <path
-                d="M22 14 C22 10, 26 8, 28 12 C29 9, 32 8, 31 13"
-                stroke="#e53935"
-                strokeWidth="2"
-                fill="#e53935"
-              />
-              <circle cx="29" cy="22" r="2.5" fill="#1a1a1a" />
-              <circle cx="30" cy="21.2" r="0.8" fill="white" />
-              <path d="M30 25 L34 23 L30 27 Z" fill="#f9a825" />
-              <ellipse cx="31" cy="27.5" rx="2" ry="2.5" fill="#e53935" />
-              <path
-                d="M16 30 Q12 26, 16 22 Q18 28, 22 30"
-                fill="#d4d4d4"
-                stroke="#bbb"
-                strokeWidth="0.5"
-              />
-            </svg>
+          <Link href="/" className={`${styles.navbar__logo} transition-transform duration-200 
+            hover:scale-105`}>
+     
+            <Image src={logo} alt="Logo" className='w-[51px] rounded-full' />
 
             <span className={styles.navbar__logo_text}>Western Poultry Breeding Farm Pvt. Ltd.</span>
           </Link>

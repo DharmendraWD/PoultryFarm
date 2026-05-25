@@ -51,7 +51,7 @@ export default function Hero() {
           Get Started
         </Link> */}
 
-        <DistantPopup />
+        {/* <DistantPopup /> */}
       </div>
 
       {/* Bottom strip */}
