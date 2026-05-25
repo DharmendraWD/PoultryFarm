@@ -154,7 +154,7 @@ const BUSINESSES = [
     accentLine: 'Grown Harvest',
     sub:
       'Seasonal vegetables, grains, and herbs cultivated with love and zero synthetic chemicals. Good for you. Good for the soil.',
-    cta: { label: 'Explore Produce', href: '/services' },
+    cta: { label: 'Explore Products', href: '/services' },
     bgClass: styles['bgPanel--agri'],
     image: Agri.src,
     badges: [
