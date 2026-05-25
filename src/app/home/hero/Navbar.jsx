@@ -79,7 +79,7 @@ useEffect(() => {
               );
             })}
 
-            <WhatsappBtn />
+            {/* <WhatsappBtn /> */}
           </ul>
 
           {/* Mobile hamburger */}
@@ -113,20 +113,24 @@ useEffect(() => {
           mobileOpen ? styles.open : ''
         }`}
       >
+
         {navLinks.map((link) => {
           const isActive = pathname === link.href;
 
           return (
+
             <Link
               key={link.label}
               href={link.href}
               className={isActive ? styles.active : ''}
               onClick={() => setMobileOpen(false)}
-            >
+              >
               {link.label}
             </Link>
+
           );
         })}
+        {/* <WhatsappBtn /> */}
       </div>
     </>
   );

@@ -167,7 +167,7 @@
    Responsive
    ================================ */
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .navbar__nav {
     display: none;
   }
@@ -240,4 +240,9 @@
   100% {
     background-position: 0% 50%;
   }
+}
+@media (min-width: 700px) and (max-width: 1200px) {
+ .navbar__logo_text{
+  display: none;
+ }
 }

@@ -12,7 +12,7 @@ export default function WhatsappBtn() {
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
-     className="bg-[var(--color-primary)] p-[20px] hover:bg-[var(--color-primary-hover)] rounded whatsapp-btn"
+     className="bg-[var(--color-primary)] p-[20px] text-center hover:bg-[var(--color-primary-hover)] rounded whatsapp-btn"
     >
       Order on WhatsApp
     </a>

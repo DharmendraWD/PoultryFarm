@@ -1,5 +1,7 @@
 "use client";
 import img2 from '../../../public/owned/adultHen2.png';
+import agri from "../../../public/owned/agri3.jpg"
+import fish from "../../../public/owned/fishFarm2.jpg"
 
 import Image from "next/image";
 import {
@@ -54,7 +56,26 @@ const chickenTypes = [
   "Fresh Dressed Chicken",
   "Whole Chicken & Cuts",
 ];
-
+const fishType = [
+  "Fresh Water Fish",
+  "Sea Water Fish",
+  "Live Fish",
+  "Fresh Cut Fish",
+  "Whole Fish",
+  "Frozen Fish",
+  "Boneless Fish Fillet",
+];
+const agricultureTypes = [
+  "Fresh Vegetables",
+  "Organic Vegetables",
+  "Leafy Greens",
+  "Root Vegetables",
+  "Seasonal Vegetables",
+  "Fruits from Farm",
+  "Grains & Cereals",
+  "Pulses & Lentils",
+  "Herbs & Spices",
+];
 const whyChooseUs = [
   {
     title: "Fresh & Hygienic",
@@ -160,7 +181,6 @@ export default function ServicesMidSection() {
       </div>
 
       {/* FRESH CHICKEN SECTION */}
-
       <div className={styles.freshSection}>
         <div className={styles.freshGrid}>
           {/* IMAGE */}
@@ -205,6 +225,128 @@ export default function ServicesMidSection() {
 
             <div className={styles.chickenGrid}>
               {chickenTypes.map((item, index) => (
+                <div
+                  key={index}
+                  className={styles.chickenCard}
+                >
+                  <div className={styles.chickenIcon}>
+                    <FaDrumstickBite />
+                  </div>
+
+                  <h4>{item}</h4>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* FISH SECTION */}
+      <div className={styles.freshSection}>
+        <div className={styles.freshGrid}>
+          {/* IMAGE */}
+
+ <div>
+            <p className={styles.sectionTag}>
+              Farm Fresh Quality
+            </p>
+
+            <h2 className={styles.sectionTitle}>
+              Fresh Fish Sales
+            </h2>
+
+            <p className={styles.sectionDescription}>
+              We provide fresh, healthy, and properly processed fish directly
+              from our fish farm.
+            </p>
+
+            {/* FISH TYPES */}
+
+            <div className={styles.chickenGrid}>
+              {fishType.map((item, index) => (
+                <div
+                  key={index}
+                  className={styles.chickenCard}
+                >
+                  <div className={styles.chickenIcon}>
+                    <FaDrumstickBite />
+                  </div>
+
+                  <h4>{item}</h4>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className={styles.freshImageWrapper}>
+            <Image
+              src={fish}
+              alt="Fresh Chicken"
+              fill
+              className={styles.freshImage}
+            />
+
+            <div className={styles.freshOverlay} />
+
+            <div className={styles.freshContent}>
+              <h3>Fresh Chicken Supply</h3>
+
+              <p>
+                Healthy farm-raised chickens processed hygienically
+                for better taste and nutrition.
+              </p>
+            </div>
+          </div>
+
+          {/* CONTENT */}
+
+         
+        </div>
+      </div>
+
+      {/* AGRICULTURE SECTION  */}
+      <div className={styles.freshSection}>
+        <div className={styles.freshGrid}>
+          {/* IMAGE */}
+
+          <div className={styles.freshImageWrapper}>
+            <Image
+              src={agri}
+              alt="Fresh Chicken"
+              fill
+              className={styles.freshImage}
+            />
+
+            <div className={styles.freshOverlay} />
+
+            <div className={styles.freshContent}>
+              <h3>Fresh Agriculture Products</h3>
+
+              <p>
+                Fresh and organic produce directly from our farm.
+              </p>
+            </div>
+          </div>
+
+          {/* CONTENT */}
+
+          <div>
+            <p className={styles.sectionTag}>
+              Farm Fresh Quality
+            </p>
+
+            <h2 className={styles.sectionTitle}>
+              Fresh Agriculture Products
+            </h2>
+
+            <p className={styles.sectionDescription}>
+              We provide fresh, healthy, and properly processed agriculture products directly
+              from our farm.
+            </p>
+
+            {/* CHICKEN TYPES */}
+
+            <div className={styles.chickenGrid}>
+              {agricultureTypes.map((item, index) => (
                 <div
                   key={index}
                   className={styles.chickenCard}

@@ -4,13 +4,13 @@ import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import styles from '../../css/service.module.css';
 
-import roosterImg from '../../../public/owned/adultHen.png';
+import roosterImg from '../../../public/owned/ok2.png';
 import Navbar from '../home/hero/Navbar';
 
 
 import Link from 'next/link';
-import styles2 from '../../css/hero.module.css';
-import A_Place_For_Chicken_BG from '../../../public/owned/cuteChicken.jpg';
+import styles2 from '../../css/Previous/Oldhero.module.css';
+import A_Place_For_Chicken_BG from '../../../public/owned/sellingAll.png';
 import ServicesMidSection from './Middle';
 
 
@@ -96,7 +96,7 @@ export default function FarmExperience() {
       <div className={`${styles2.hero__bg} fadeIn`}>
         <Image
           src={A_Place_For_Chicken_BG}
-          alt="Cheeky Farm"
+          alt=" Farm"
           fill
           priority
           quality={90}
@@ -151,7 +151,7 @@ export default function FarmExperience() {
           <p className={styles.subTitle}>OUR SERVICE</p>
 
           <h2 className={styles.title}>
-            We Sell Organic Chicken  <br />
+            We Prioritize Customer Satisfaction.  <br />
           </h2>
 
           <p className={styles.description}>

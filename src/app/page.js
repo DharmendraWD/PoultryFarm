@@ -14,7 +14,7 @@ import AOSInit from "./AOSInit";
 
 
 export const metadata = {
-  title: 'Cheeky — Welcome To Farm',
+  title: 'Western Poultry Breeding Farm Pvt. Ltd.',
   description: 'Always Loyal and Honest. Premium farm products.',
 };
 

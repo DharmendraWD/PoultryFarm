@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from '../../css/aboutus.module.css';
-import Free_Range_Chickens from "../../../public/owned/hens4.png"
-import styles2 from '../../css/hero.module.css';
+import Free_Range_Chickens from "../../../public/owned/a-place-for-poultry-to-call-home.jpg"
+import styles2 from '../../css/Previous/Oldhero.module.css';
 import A_Place_For_Chicken_BG from '../../../public/owned/adultHen.png';
 
 
@@ -17,7 +17,7 @@ export default function   AboutUs() {
       <div className={`${styles2.hero__bg} fadeIn`}>
         <Image
           src={A_Place_For_Chicken_BG}
-          alt="Cheeky Farm"
+          alt=" Farm"
           fill
           priority
           quality={90}
@@ -70,7 +70,7 @@ export default function   AboutUs() {
         <div className={styles.content}>
           <p className={styles.content__eyebrow}>About Us</p>
           <h2 className={styles.content__title}>
-            The Typical<br />Rural Taste
+            The Typical<br />Rural Taste From Calm Environment
           </h2>
           <p className={styles.content__body}>
             Founded in 2075 BS, Western Poultry Breeding Farm Pvt. Ltd. began with a specialized focus on high-quality hatchery operations. As we evolved, so did our vision for a sustainable and food-secure future.
