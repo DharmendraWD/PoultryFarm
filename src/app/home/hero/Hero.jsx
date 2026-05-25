@@ -119,7 +119,7 @@ import { TbChevronDown } from 'react-icons/tb';
 import styles from '../../../css/hero.module.css';
 import adultChicken from '../../../../public/owned/adultHen2.png';
 import fishFarm from '../../../../public/owned/fishFarm1.jpg';
-import Agri from '../../../../public/owned/agri2.jpg';
+import Agri from '../../../../public/owned/agri4.jpg';
 
 /* ── Business data ──────────────────────────────────────── */
 const BUSINESSES = [
