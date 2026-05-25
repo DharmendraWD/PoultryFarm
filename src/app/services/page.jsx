@@ -4,13 +4,13 @@ import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import styles from '../../css/service.module.css';
 
-import roosterImg from '../../../public/service/hens.jpg';
+import roosterImg from '../../../public/owned/adultHen.png';
 import Navbar from '../home/hero/Navbar';
 
 
 import Link from 'next/link';
 import styles2 from '../../css/hero.module.css';
-import A_Place_For_Chicken_BG from '../../../public/free-range-chickens.jpg';
+import A_Place_For_Chicken_BG from '../../../public/owned/cuteChicken.jpg';
 import ServicesMidSection from './Middle';
 
 
@@ -151,8 +151,7 @@ export default function FarmExperience() {
           <p className={styles.subTitle}>OUR SERVICE</p>
 
           <h2 className={styles.title}>
-            HIRE CHICKEN TO <br />
-            BE CHICKEN
+            We Sell Organic Chicken  <br />
           </h2>
 
           <p className={styles.description}>

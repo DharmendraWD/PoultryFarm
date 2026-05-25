@@ -1,4 +1,5 @@
 "use client";
+import img2 from '../../../public/owned/adultHen2.png';
 
 import Image from "next/image";
 import {
@@ -166,7 +167,7 @@ export default function ServicesMidSection() {
 
           <div className={styles.freshImageWrapper}>
             <Image
-              src="https://images.unsplash.com/photo-1587593810167-a84920ea0781?q=80&w=1400&auto=format&fit=crop"
+              src={img2}
               alt="Fresh Chicken"
               fill
               className={styles.freshImage}
