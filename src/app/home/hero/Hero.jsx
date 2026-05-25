@@ -170,7 +170,7 @@ const BUSINESSES = [
     color: '#1a9bbf',
     eyebrow: 'Freshwater Fish Farm',
     headline: 'Pristine',
-    accentLine: 'Fish & Seafood',
+    accentLine: 'Fresh Fish',
     sub:
       'Sustainably farmed fresh-water fish raised in clean, oxygen-rich ponds. Omega-rich and harvested to order for peak freshness.',
     cta: { label: 'Our Services', href: '/services' },
